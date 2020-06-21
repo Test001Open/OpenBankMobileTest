@@ -47,3 +47,6 @@ It is requested the creation of an app structure that shows a list of Marvel Com
 ## How Does The App Work
 When the app opens, it shows an initial list of characters in alphabetical order. When the user clicks on one of the characters, a new table view is called showing the details of that character in a simple way (character's image (if the character has one), description, comics, series, stories and events.
 The user can also search for any Marvel character, if the search does exist, a new table view showing the requested character will show, if the character does not exist, then the search results table view will say that the requested character does not exist.  
+
+## Architecture Used
+For the main tableview controller (showing the characters list in the main window) and the character details table view controller, it was used the "Clean Architecture" method, for the search character table view controllers (and the character's details from that search), it was used MVC
